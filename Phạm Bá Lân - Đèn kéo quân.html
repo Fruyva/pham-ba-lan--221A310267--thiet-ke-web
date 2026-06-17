@@ -15,24 +15,26 @@
             --tz: 150px; 
         }
 
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff;
-            
-            /* Thêm background bằng ảnh bạn đã chuẩn bị */
-            background-image: url('background-moon.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            /* Phủ thêm một lớp màu tối nhẹ để chữ và đèn nổi bật hơn */
-            background-color: #1a0b2e;
-            background-blend-mode: overlay;
+    body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* Code màu và nền của bạn */
+    color: #fff;
+    background-image: url('background-moon.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1a0b2e;
+    background-blend-mode: overlay;
+    
+    /* Dòng lệnh ma thuật khắc phục lỗi khoảng trống khi cuộn chuột */
+    background-attachment: fixed;
         }
 
         .header {
